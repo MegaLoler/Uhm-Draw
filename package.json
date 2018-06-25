@@ -1,0 +1,16 @@
+{
+  "name": "uhm-draw",
+  "version": "1.0.0",
+  "description": "Uhm, a ultra simple whiteboard bruh",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . uhm-draw --platform=linux --arch=x64"
+  },
+  "author": "megaloler",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.3",
+    "electron-packager": "^12.1.0"
+  }
+}
